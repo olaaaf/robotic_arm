@@ -1,6 +1,23 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - robot_rotation
+    JetBrains.Frontend.2021.2.dll:
+    - JetBrains.RiderFlow.Since2021_2.RecentFilesCache
+    - JetBrains.RiderFlow.Since2021_2.SearchWindowSettings
+    JetBrains.RiderFlow.Repacked.dll:
+    - JetBrains.RiderFlow.Core.Analytics.RiderFlowStatisticCache
+    - JetBrains.RiderFlow.Core.Core.Caches.InMemory.RiderFlowCachesRoot
+    - JetBrains.RiderFlow.Core.Launchers.BackendRunCache
+    - JetBrains.RiderFlow.Core.ReEditor.EditorActions.UndoRedoActions.UndoRedoServiceState
+    - JetBrains.RiderFlow.Core.Services.CustomUndo.BookmarkCreatedUndoToken
+    - JetBrains.RiderFlow.Core.Services.CustomUndo.BookmarkRemovedUndoToken
+    - JetBrains.RiderFlow.Core.Services.CustomUndo.UndoTokenManager
+    - JetBrains.RiderFlow.Core.Services.CustomUndo.UndoWatcher
+    - JetBrains.RiderFlow.Core.Services.Toolbox.DescriptorStorage
+    - JetBrains.RiderFlow.Core.Wizard.WizardWindowCache
     Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -30,6 +47,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -37,6 +56,10 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 3284}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -295,6 +318,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow.dll
     namespaceName: Unity.VisualScripting
     className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: cce4d3041c94ceebf786cffa9e158cd5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: robot_rotation
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
