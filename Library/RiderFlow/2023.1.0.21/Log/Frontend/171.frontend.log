@@ -1,0 +1,592 @@
+﻿22:22:18.926 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+22:22:18.948 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+22:22:18.959 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+22:22:18.965 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+22:22:18.976 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+22:22:18.977 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 35663
+22:22:18.979 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : accepting, port: 35663
+22:22:27.502 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+22:22:27.507 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+22:22:27.508 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+22:22:27.509 |I| Launcher                       | :1                             | Subscribing for events
+22:22:28.796 |I| Launcher                       | :1                             | Start running backend
+22:22:36.328 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+22:22:36.338 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+22:22:36.836 |V| Launcher                       | :1                             | Ready!
+22:22:42.904 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : accepted
+22:22:42.904 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer : connected
+22:22:42.908 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:20 | RESUME :: state=AsyncProcessing
+22:38:11.923 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+22:38:11.990 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+22:38:12.003 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+22:38:12.003 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+22:38:12.004 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+22:38:12.037 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+22:38:12.051 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer: Total traffic: sent 1279, received 48901
+22:38:12.051 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:20 | ServerSocket-UnityServer: terminated.
+22:38:12.052 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+22:38:21.590 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+22:38:21.604 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+22:38:21.612 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+22:38:21.613 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+22:38:21.614 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+22:38:21.614 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 46769
+22:38:21.616 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | ServerSocket-UnityServer : accepting, port: 46769
+22:38:22.362 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | ServerSocket-UnityServer : accepted
+22:38:22.362 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | ServerSocket-UnityServer : connected
+22:38:22.365 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:31 | RESUME :: state=AsyncProcessing
+22:38:25.632 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+22:38:25.634 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+22:38:25.634 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+22:38:25.635 |I| Launcher                       | :1                             | Subscribing for events
+22:38:25.636 |I| Launcher                       | :1                             | Start running backend
+22:38:25.828 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+22:38:25.828 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+22:38:27.954 |V| Launcher                       | :1                             | Ready!
+22:39:37.787 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+22:39:38.021 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+22:39:38.022 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+22:39:38.022 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+22:39:38.023 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+22:39:38.023 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+22:39:38.024 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1294
+22:39:38.025 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:31 | ServerSocket-UnityServer: terminated.
+22:39:38.025 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+22:39:41.352 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+22:39:41.375 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+22:39:41.391 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+22:39:41.393 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+22:39:41.394 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+22:39:41.395 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 39569
+22:39:41.396 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | ServerSocket-UnityServer : accepting, port: 39569
+22:39:42.861 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | ServerSocket-UnityServer : accepted
+22:39:42.862 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | ServerSocket-UnityServer : connected
+22:39:42.864 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:37 | RESUME :: state=AsyncProcessing
+22:39:44.905 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+22:39:44.907 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+22:39:44.908 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+22:39:44.909 |I| Launcher                       | :1                             | Subscribing for events
+22:39:44.910 |I| Launcher                       | :1                             | Start running backend
+22:39:45.263 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+22:39:45.264 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+22:39:46.986 |V| Launcher                       | :1                             | Ready!
+00:37:50.236 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+00:37:50.239 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+00:37:50.248 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+00:37:50.248 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+00:37:50.248 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+00:37:50.249 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+00:37:50.250 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+00:37:50.250 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:37 | ServerSocket-UnityServer: terminated.
+00:37:50.251 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+00:37:52.529 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:37:52.540 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:37:52.547 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:37:52.549 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:37:52.550 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:37:52.550 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 39517
+00:37:52.551 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | ServerSocket-UnityServer : accepting, port: 39517
+00:37:54.300 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+00:37:54.302 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+00:37:54.302 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+00:37:54.303 |I| Launcher                       | :1                             | Subscribing for events
+00:37:54.304 |I| Launcher                       | :1                             | Start running backend
+00:37:54.392 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+00:37:54.393 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+00:37:54.517 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | ServerSocket-UnityServer : accepted
+00:37:54.518 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | ServerSocket-UnityServer : connected
+00:37:54.548 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:52 | RESUME :: state=AsyncProcessing
+00:37:55.233 |V| Launcher                       | :1                             | Ready!
+00:38:35.817 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+00:38:35.856 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+00:38:35.856 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+00:38:35.857 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+00:38:35.857 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+00:38:35.857 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+00:38:35.859 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+00:38:35.859 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:52 | ServerSocket-UnityServer: terminated.
+00:38:35.859 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+00:38:37.358 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:38:37.370 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:38:37.378 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:38:37.379 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:38:37.380 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:38:37.380 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 33771
+00:38:37.381 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | ServerSocket-UnityServer : accepting, port: 33771
+00:38:38.734 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | ServerSocket-UnityServer : accepted
+00:38:38.734 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | ServerSocket-UnityServer : connected
+00:38:38.738 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:58 | RESUME :: state=AsyncProcessing
+00:38:39.090 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+00:38:39.092 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+00:38:39.092 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+00:38:39.093 |I| Launcher                       | :1                             | Subscribing for events
+00:38:39.094 |I| Launcher                       | :1                             | Start running backend
+00:38:39.173 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+00:38:39.173 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+00:38:39.941 |V| Launcher                       | :1                             | Ready!
+00:41:58.628 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+00:41:58.656 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+00:41:58.657 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+00:41:58.657 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+00:41:58.657 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+00:41:58.658 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+00:41:58.658 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1294
+00:41:58.659 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:58 | ServerSocket-UnityServer: terminated.
+00:41:58.659 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+00:42:00.121 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:42:00.131 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:42:00.138 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:42:00.139 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:42:00.140 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:42:00.140 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 32985
+00:42:00.141 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | ServerSocket-UnityServer : accepting, port: 32985
+00:42:01.672 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+00:42:01.673 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+00:42:01.674 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+00:42:01.674 |I| Launcher                       | :1                             | Subscribing for events
+00:42:01.675 |I| Launcher                       | :1                             | Start running backend
+00:42:01.698 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | ServerSocket-UnityServer : accepted
+00:42:01.704 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | ServerSocket-UnityServer : connected
+00:42:01.706 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:65 | RESUME :: state=AsyncProcessing
+00:42:02.301 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+00:42:02.301 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+00:42:02.419 |V| Launcher                       | :1                             | Ready!
+00:42:05.929 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+00:42:05.936 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+00:42:05.937 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+00:42:05.937 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+00:42:05.937 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+00:42:05.938 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+00:42:05.939 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+00:42:05.939 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:65 | ServerSocket-UnityServer: terminated.
+00:42:05.939 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+00:42:07.244 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:42:07.254 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:42:07.261 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:42:07.263 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:42:07.264 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:42:07.264 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 39085
+00:42:07.265 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | ServerSocket-UnityServer : accepting, port: 39085
+00:42:07.729 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | ServerSocket-UnityServer : accepted
+00:42:07.729 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | ServerSocket-UnityServer : connected
+00:42:07.734 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:71 | RESUME :: state=AsyncProcessing
+00:42:08.954 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+00:42:08.956 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+00:42:08.957 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+00:42:08.957 |I| Launcher                       | :1                             | Subscribing for events
+00:42:08.958 |I| Launcher                       | :1                             | Start running backend
+00:42:09.025 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+00:42:09.025 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+00:42:10.086 |V| Launcher                       | :1                             | Ready!
+00:43:06.700 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+00:43:06.728 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+00:43:06.729 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+00:43:06.729 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+00:43:06.729 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+00:43:06.729 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+00:43:06.730 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+00:43:06.730 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:71 | ServerSocket-UnityServer: terminated.
+00:43:06.731 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+00:43:08.287 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:43:08.297 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:43:08.304 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:43:08.305 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:43:08.306 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:43:08.306 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 39199
+00:43:08.308 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | ServerSocket-UnityServer : accepting, port: 39199
+00:43:10.038 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | ServerSocket-UnityServer : accepted
+00:43:10.038 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | ServerSocket-UnityServer : connected
+00:43:10.041 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:80 | RESUME :: state=AsyncProcessing
+00:43:10.155 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_icall(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+  at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiveFromSocket (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00006] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver, System.Int32 size) [0x000a1] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver) [0x00000] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiveFromPkgBuffer (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x0003b] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver, System.Int32 size) [0x000a1] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver) [0x00000] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReadMsg () [0x00021] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiverProc (System.Net.Sockets.Socket socket) [0x0006c] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+00:43:10.158 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:80 | PAUSE ('Disconnected') :: state=AsyncProcessing
+00:43:10.159 |E|                                | ServerSocket-UnityServer-Receiver:80 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiverProc (System.Net.Sockets.Socket socket) [0x00163] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base+<>c__DisplayClass19_0.<.ctor>b__1 (System.Net.Sockets.Socket socket) [0x0005c] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Collections.Viewable.SignalBase`1[T].Fire (T value) [0x00033] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+00:43:10.159 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | ServerSocket-UnityServer :: System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Collections.Viewable.SignalBase`1[T].Fire (T value) [0x0004a] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+  at JetBrains.Collections.Viewable.ViewableProperty`1[T].set_Value (T value) [0x0004a] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+  at JetBrains.Rd.Impl.SocketWire+Server+<>c__DisplayClass4_0.<StartServerSocket>b__1 () [0x000f6] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+00:43:10.159 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:80 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Rd.Impl.SocketWire+Server+<>c__DisplayClass4_0.<StartServerSocket>b__1 () [0x0019b] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Diagnostics.LogEx.Catch (JetBrains.Diagnostics.ILog log, System.Action action) [0x00000] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+00:43:11.394 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+00:43:11.404 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+00:43:11.411 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+00:43:11.412 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+00:43:11.413 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+00:43:11.413 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 34983
+00:43:11.414 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | ServerSocket-UnityServer : accepting, port: 34983
+00:43:12.047 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | ServerSocket-UnityServer : accepted
+00:43:12.047 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | ServerSocket-UnityServer : connected
+00:43:12.051 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:86 | RESUME :: state=AsyncProcessing
+00:43:13.124 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+00:43:13.126 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+00:43:13.126 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+00:43:13.126 |I| Launcher                       | :1                             | Subscribing for events
+00:43:13.128 |I| Launcher                       | :1                             | Start running backend
+00:43:13.206 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+00:43:13.206 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+00:43:14.181 |V| Launcher                       | :1                             | Ready!
+14:11:33.070 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:11:33.087 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:11:33.088 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:11:33.088 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:11:33.088 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:11:33.089 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:11:33.089 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1650
+14:11:33.091 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:86 | ServerSocket-UnityServer: terminated.
+14:11:33.091 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:11:34.531 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:11:34.541 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:11:34.547 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:11:34.548 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:11:34.549 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:11:34.549 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 40401
+14:11:34.550 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | ServerSocket-UnityServer : accepting, port: 40401
+14:11:35.919 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | ServerSocket-UnityServer : accepted
+14:11:35.920 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | ServerSocket-UnityServer : connected
+14:11:35.923 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:100 | RESUME :: state=AsyncProcessing
+14:11:36.397 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:11:36.398 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:11:36.399 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:11:36.399 |I| Launcher                       | :1                             | Subscribing for events
+14:11:36.401 |I| Launcher                       | :1                             | Start running backend
+14:11:36.482 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:11:36.482 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:11:37.406 |V| Launcher                       | :1                             | Ready!
+14:14:17.230 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:14:17.242 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:14:17.243 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:14:17.243 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:14:17.243 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:14:17.244 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:14:17.244 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:14:17.245 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:100 | ServerSocket-UnityServer: terminated.
+14:14:17.245 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:14:18.775 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:14:18.786 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:14:18.793 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:14:18.794 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:14:18.794 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:14:18.795 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 44169
+14:14:18.796 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | ServerSocket-UnityServer : accepting, port: 44169
+14:14:20.430 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:14:20.431 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:14:20.432 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:14:20.432 |I| Launcher                       | :1                             | Subscribing for events
+14:14:20.433 |I| Launcher                       | :1                             | Start running backend
+14:14:20.562 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:14:20.562 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:14:20.867 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | ServerSocket-UnityServer : accepted
+14:14:20.867 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | ServerSocket-UnityServer : connected
+14:14:20.885 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:112 | RESUME :: state=AsyncProcessing
+14:14:21.229 |V| Launcher                       | :1                             | Ready!
+14:24:02.669 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:24:02.682 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:24:02.683 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:24:02.683 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:24:02.683 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:24:02.684 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:24:02.685 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:24:02.685 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:112 | ServerSocket-UnityServer: terminated.
+14:24:02.686 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:24:04.217 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:24:04.227 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:24:04.235 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:24:04.236 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:24:04.236 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:24:04.237 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 38071
+14:24:04.238 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | ServerSocket-UnityServer : accepting, port: 38071
+14:24:05.365 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | ServerSocket-UnityServer : accepted
+14:24:05.366 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | ServerSocket-UnityServer : connected
+14:24:05.370 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:124 | RESUME :: state=AsyncProcessing
+14:24:05.877 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:24:05.879 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:24:05.879 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:24:05.879 |I| Launcher                       | :1                             | Subscribing for events
+14:24:05.880 |I| Launcher                       | :1                             | Start running backend
+14:24:06.029 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:24:06.029 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:24:06.878 |V| Launcher                       | :1                             | Ready!
+14:24:11.290 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:24:11.303 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:24:11.304 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:24:11.304 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:24:11.304 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:24:11.305 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:24:11.306 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+14:24:11.306 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:124 | ServerSocket-UnityServer: terminated.
+14:24:11.306 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:24:12.601 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:24:12.611 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:24:12.618 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:24:12.620 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:24:12.620 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:24:12.621 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 40577
+14:24:12.622 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | ServerSocket-UnityServer : accepting, port: 40577
+14:24:13.405 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | ServerSocket-UnityServer : accepted
+14:24:13.405 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | ServerSocket-UnityServer : connected
+14:24:13.410 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:130 | RESUME :: state=AsyncProcessing
+14:24:14.267 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:24:14.269 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:24:14.269 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:24:14.270 |I| Launcher                       | :1                             | Subscribing for events
+14:24:14.271 |I| Launcher                       | :1                             | Start running backend
+14:24:14.358 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:24:14.359 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:24:15.442 |V| Launcher                       | :1                             | Ready!
+14:25:00.732 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:25:00.745 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:25:00.746 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:25:00.746 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:25:00.746 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:25:00.747 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:25:00.747 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:25:00.748 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:130 | ServerSocket-UnityServer: terminated.
+14:25:00.748 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:25:02.309 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:25:02.319 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:25:02.327 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:25:02.328 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:25:02.329 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:25:02.329 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 39123
+14:25:02.330 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | ServerSocket-UnityServer : accepting, port: 39123
+14:25:03.653 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | ServerSocket-UnityServer : accepted
+14:25:03.653 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | ServerSocket-UnityServer : connected
+14:25:03.657 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:140 | RESUME :: state=AsyncProcessing
+14:25:04.008 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:25:04.009 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:25:04.010 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:25:04.010 |I| Launcher                       | :1                             | Subscribing for events
+14:25:04.011 |I| Launcher                       | :1                             | Start running backend
+14:25:04.477 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:25:04.478 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:25:04.877 |V| Launcher                       | :1                             | Ready!
+14:25:27.898 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:25:27.911 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:25:27.912 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:25:27.912 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:25:27.912 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:25:27.912 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:25:27.913 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+14:25:27.914 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:140 | ServerSocket-UnityServer: terminated.
+14:25:27.914 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:25:29.226 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:25:29.236 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:25:29.242 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:25:29.244 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:25:29.244 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:25:29.245 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 37213
+14:25:29.246 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | ServerSocket-UnityServer : accepting, port: 37213
+14:25:29.773 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | ServerSocket-UnityServer : accepted
+14:25:29.773 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | ServerSocket-UnityServer : connected
+14:25:29.777 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:147 | RESUME :: state=AsyncProcessing
+14:25:30.902 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:25:30.903 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:25:30.904 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:25:30.904 |I| Launcher                       | :1                             | Subscribing for events
+14:25:30.905 |I| Launcher                       | :1                             | Start running backend
+14:25:30.983 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:25:30.983 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:25:32.084 |V| Launcher                       | :1                             | Ready!
+14:26:53.052 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:26:53.070 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:26:53.071 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:26:53.071 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:26:53.072 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:26:53.072 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:26:53.073 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:26:53.073 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:147 | ServerSocket-UnityServer: terminated.
+14:26:53.074 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:26:54.602 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:26:54.612 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:26:54.620 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:26:54.621 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:26:54.621 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:26:54.622 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 43933
+14:26:54.623 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | ServerSocket-UnityServer : accepting, port: 43933
+14:26:56.193 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | ServerSocket-UnityServer : accepted
+14:26:56.193 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | ServerSocket-UnityServer : connected
+14:26:56.197 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:155 | RESUME :: state=AsyncProcessing
+14:26:56.257 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:26:56.259 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:26:56.259 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:26:56.259 |I| Launcher                       | :1                             | Subscribing for events
+14:26:56.260 |I| Launcher                       | :1                             | Start running backend
+14:26:56.402 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:26:56.402 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:26:57.073 |V| Launcher                       | :1                             | Ready!
+14:27:21.966 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:27:21.982 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:27:21.983 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:27:21.983 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:27:21.983 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:27:21.984 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:27:21.985 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:27:21.985 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:155 | ServerSocket-UnityServer: terminated.
+14:27:21.985 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:27:23.508 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:27:23.518 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:27:23.525 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:27:23.527 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:27:23.527 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:27:23.527 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 33403
+14:27:23.528 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | ServerSocket-UnityServer : accepting, port: 33403
+14:27:24.324 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | ServerSocket-UnityServer : accepted
+14:27:24.324 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | ServerSocket-UnityServer : connected
+14:27:24.328 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:161 | RESUME :: state=AsyncProcessing
+14:27:25.299 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at (wrapper managed-to-native) System.Net.Sockets.Socket.Receive_icall(intptr,byte*,int,System.Net.Sockets.SocketFlags,int&,bool)
+  at System.Net.Sockets.Socket.Receive_internal (System.Net.Sockets.SafeSocketHandle safeHandle, System.Byte* buffer, System.Int32 count, System.Net.Sockets.SocketFlags flags, System.Int32& error, System.Boolean blocking) [0x0000c] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags, System.Net.Sockets.SocketError& errorCode) [0x0002e] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.Net.Sockets.SocketFlags socketFlags) [0x00000] in <ab7fd9314e994e94ab88103bdb883392>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiveFromSocket (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x00006] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver, System.Int32 size) [0x000a1] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver) [0x00000] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiveFromPkgBuffer (System.Byte[] buffer, System.Int32 offset, System.Int32 size) [0x0003b] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver, System.Int32 size) [0x000a1] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.BufferWindow.Read (JetBrains.Rd.Impl.BufferWindow& helper, JetBrains.Rd.Impl.BufferWindow+Receiver receiver) [0x00000] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReadMsg () [0x00021] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiverProc (System.Net.Sockets.Socket socket) [0x0006c] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+14:27:25.302 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:161 | PAUSE ('Disconnected') :: state=AsyncProcessing
+14:27:25.303 |E|                                | ServerSocket-UnityServer-Receiver:161 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Rd.Impl.SocketWire+Base.ReceiverProc (System.Net.Sockets.Socket socket) [0x00163] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Rd.Impl.SocketWire+Base+<>c__DisplayClass19_0.<.ctor>b__1 (System.Net.Sockets.Socket socket) [0x0005c] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Collections.Viewable.SignalBase`1[T].Fire (T value) [0x00033] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+14:27:25.304 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | ServerSocket-UnityServer :: System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Collections.Viewable.SignalBase`1[T].Fire (T value) [0x0004a] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+  at JetBrains.Collections.Viewable.ViewableProperty`1[T].set_Value (T value) [0x0004a] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+  at JetBrains.Rd.Impl.SocketWire+Server+<>c__DisplayClass4_0.<StartServerSocket>b__1 () [0x000f6] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+14:27:25.304 |E| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:161 | System.Threading.ThreadAbortException: Thread was being aborted.
+  at JetBrains.Rd.Impl.SocketWire+Server+<>c__DisplayClass4_0.<StartServerSocket>b__1 () [0x0019b] in <430db715e7c649b38f82ebaf8e15cd26>:0 
+  at JetBrains.Diagnostics.LogEx.Catch (JetBrains.Diagnostics.ILog log, System.Action action) [0x00000] in <6164fcd4dbdf43c6bfb52a09be0c742c>:0 
+14:27:26.545 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:27:26.555 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:27:26.562 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:27:26.564 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:27:26.564 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:27:26.565 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 43331
+14:27:26.566 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | ServerSocket-UnityServer : accepting, port: 43331
+14:27:28.208 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:27:28.209 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:27:28.210 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:27:28.210 |I| Launcher                       | :1                             | Subscribing for events
+14:27:28.214 |I| Launcher                       | :1                             | Start running backend
+14:27:28.296 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:27:28.296 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:27:28.374 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | ServerSocket-UnityServer : accepted
+14:27:28.374 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | ServerSocket-UnityServer : connected
+14:27:28.378 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:167 | RESUME :: state=AsyncProcessing
+14:27:29.357 |V| Launcher                       | :1                             | Ready!
+14:27:42.127 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:27:42.139 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:27:42.140 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:27:42.140 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:27:42.141 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:27:42.141 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:27:42.142 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1296
+14:27:42.143 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:167 | ServerSocket-UnityServer: terminated.
+14:27:42.143 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:27:43.679 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:27:43.689 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:27:43.696 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:27:43.698 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:27:43.698 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:27:43.698 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 40601
+14:27:43.699 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | ServerSocket-UnityServer : accepting, port: 40601
+14:27:44.425 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | ServerSocket-UnityServer : accepted
+14:27:44.426 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | ServerSocket-UnityServer : connected
+14:27:44.430 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:175 | RESUME :: state=AsyncProcessing
+14:27:45.321 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:27:45.323 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:27:45.323 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:27:45.324 |I| Launcher                       | :1                             | Subscribing for events
+14:27:45.325 |I| Launcher                       | :1                             | Start running backend
+14:27:45.518 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:27:45.518 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:27:46.180 |V| Launcher                       | :1                             | Ready!
+14:27:46.923 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:27:46.933 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:27:46.934 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:27:46.935 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:27:46.935 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:27:46.935 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:27:46.936 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+14:27:46.937 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:175 | ServerSocket-UnityServer: terminated.
+14:27:46.937 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:27:48.284 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:27:48.294 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:27:48.301 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:27:48.302 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:27:48.303 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:27:48.303 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 42623
+14:27:48.304 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | ServerSocket-UnityServer : accepting, port: 42623
+14:27:48.445 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | ServerSocket-UnityServer : accepted
+14:27:48.445 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | ServerSocket-UnityServer : connected
+14:27:48.451 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:181 | RESUME :: state=AsyncProcessing
+14:27:49.930 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:27:49.932 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:27:49.933 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:27:49.933 |I| Launcher                       | :1                             | Subscribing for events
+14:27:49.938 |I| Launcher                       | :1                             | Start running backend
+14:27:50.031 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:27:50.031 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:27:51.097 |V| Launcher                       | :1                             | Ready!
+14:28:31.742 |V| JetBrains.Rd.Impl.SocketWire+Base | :1                             | closing server socket
+14:28:31.750 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: start termination of lifetime
+14:28:31.751 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: send buffer stopped, success: True
+14:28:31.751 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: closing socket because of lifetime
+14:28:31.751 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: waiting for receiver thread
+14:28:31.751 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | Exception in SocketWire.Receive: SocketException ServerSocket-UnityServer interrupted
+14:28:31.752 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | ServerSocket-UnityServer: Total traffic: sent 1279, received 1082
+14:28:31.753 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:181 | ServerSocket-UnityServer: terminated.
+14:28:31.753 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer: termination finished
+14:28:33.075 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+14:28:33.085 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+14:28:33.092 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+14:28:33.093 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+14:28:33.094 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+14:28:33.094 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 43775
+14:28:33.095 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:190 | ServerSocket-UnityServer : accepting, port: 43775
+14:28:34.645 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:190 | ServerSocket-UnityServer : accepted
+14:28:34.645 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:190 | ServerSocket-UnityServer : connected
+14:28:34.650 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:190 | RESUME :: state=AsyncProcessing
+14:28:34.757 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+14:28:34.759 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+14:28:34.760 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+14:28:34.760 |I| Launcher                       | :1                             | Subscribing for events
+14:28:34.761 |I| Launcher                       | :1                             | Start running backend
+14:28:34.848 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+14:28:34.848 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+14:28:35.961 |V| Launcher                       | :1                             | Ready!
+13:24:35.441 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+13:24:35.453 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+13:24:35.462 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+13:24:35.465 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+13:24:35.473 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+13:24:35.474 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 34071
+13:24:35.475 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:11 | ServerSocket-UnityServer : accepting, port: 34071
+13:24:42.772 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+13:24:42.774 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Trying to extract use guid...
+13:24:42.774 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Found uuid in 'analytics'.
+13:24:42.774 |I| Launcher                       | :1                             | Subscribing for events
+13:24:42.776 |I| Launcher                       | :1                             | Start running backend
+13:24:43.002 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+13:24:43.011 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+13:24:44.101 |V| Launcher                       | :1                             | Ready!
+13:24:53.133 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:11 | ServerSocket-UnityServer : accepted
+13:24:53.134 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:11 | ServerSocket-UnityServer : connected
+13:24:53.140 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:11 | RESUME :: state=AsyncProcessing

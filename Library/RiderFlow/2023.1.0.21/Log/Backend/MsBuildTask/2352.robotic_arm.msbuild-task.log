@@ -1,0 +1,194 @@
+﻿01:04:51.018 |I| Core                           | RequestBuilder thread:10       | MsBuild process with Id = 2412
+01:04:51.020 |I| Core                           | RequestBuilder thread:10       | MsBuild location = /run/host/usr/share/dotnet/sdk/7.0.302/MSBuild.dll
+01:04:51.020 |I| Core                           | RequestBuilder thread:10       | ServerGC = False
+01:04:51.020 |I| Core                           | RequestBuilder thread:10       | 
+01:04:51.020 |I| Core                           | RequestBuilder thread:10       | Start ControllerTask...
+01:04:51.021 |I| Core                           | RequestBuilder thread:10       | Detected version: 17.6
+01:04:51.022 |I| Core                           | RequestBuilder thread:10       | Creating SocketWire with port = 33641
+01:04:51.033 |I| Core                           | RequestBuilder thread:10       | Create protocol...
+01:04:51.057 |I| Core                           | RequestBuilder thread:10       | Create MsBuildModel and advise for new sessions...
+01:04:51.075 |I| Core                           | RequestBuilder thread:10       | Subscribe for changes...
+01:04:51.075 |I| Core                           | RequestBuilder thread:10       | Setup process watchdog...
+01:04:51.076 |I| Core                           | RequestBuilder thread:10       | Run dispatcher...
+01:04:51.077 |I| ProcessWatchdog                | WatchParentPid:2352:15         | Monitoring parent process PID:2352
+01:04:51.152 |I| Core                           | RequestBuilder thread:10       | Get protocol session 'RdProjectModelSession'
+01:04:51.155 |I| Core                           | RequestBuilder thread:10       | Msbuild session 'ProjectModelSessionHost' created
+01:04:51.192 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading 30 project(s) in 4 node(s)...
+01:04:51.192 |I| ProjectModel                   | RequestBuilder thread:10       | Reason: ColdStartup
+01:04:51.195 |I| Build                          | MSBuild LoggingService events queue pump: 28805302:17 | Build started.
+01:04:51.198 |I| BuildQueue                     | RequestBuilder thread:10       | Build queue: False
+01:04:51.678 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEngine.TestRunner.csproj
+01:04:51.680 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEngine.TestRunner.csproj' with 1 target frameworks
+01:04:51.697 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:51.698 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.TextMeshPro.Editor.csproj
+01:04:51.699 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.TextMeshPro.Editor.csproj' with 1 target frameworks
+01:04:51.701 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:51.701 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Assembly-CSharp.csproj
+01:04:51.701 |I| Build                          | RequestBuilder thread:10       | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+01:04:51.878 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:51.880 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEditor.UI.csproj
+01:04:51.880 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEditor.UI.csproj' with 1 target frameworks
+01:04:51.881 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:51.881 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.SettingsProvider.Editor.csproj
+01:04:51.881 |I| Build                          | .NET ThreadPool Worker:18      | Finish build part [1/1] for project 'UnityEngine.TestRunner.csproj': Success
+01:04:51.881 |I| Build                          | .NET ThreadPool Worker:18      | Finish build project 'UnityEngine.TestRunner.csproj': Success
+01:04:51.882 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.SettingsProvider.Editor.csproj' with 1 target frameworks
+01:04:52.076 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.078 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEngine.UI.csproj
+01:04:52.078 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEngine.UI.csproj' with 1 target frameworks
+01:04:52.264 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.266 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj
+01:04:52.266 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj' with 1 target frameworks
+01:04:52.267 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.268 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEditor.TestRunner.csproj
+01:04:52.268 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEditor.TestRunner.csproj' with 1 target frameworks
+01:04:52.269 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.269 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.PlasticSCM.Editor.csproj
+01:04:52.269 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.PlasticSCM.Editor.csproj' with 1 target frameworks
+01:04:52.270 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.271 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Flow.csproj
+01:04:52.271 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Flow.csproj' with 1 target frameworks
+01:04:52.273 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.273 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.EditorCoroutines.Editor.csproj
+01:04:52.273 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.EditorCoroutines.Editor.csproj' with 1 target frameworks
+01:04:52.274 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.274 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.TestTools.CodeCoverage.Editor.csproj
+01:04:52.274 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.TestTools.CodeCoverage.Editor.csproj' with 1 target frameworks
+01:04:52.279 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.279 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.State.csproj
+01:04:52.280 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.State.csproj' with 1 target frameworks
+01:04:52.281 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.281 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.Rider.Editor.csproj
+01:04:52.281 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.Rider.Editor.csproj' with 1 target frameworks
+01:04:52.283 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.283 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.Settings.Editor.csproj
+01:04:52.283 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.Settings.Editor.csproj' with 1 target frameworks
+01:04:52.284 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.285 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Core.Editor.csproj
+01:04:52.286 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Core.Editor.csproj' with 1 target frameworks
+01:04:52.289 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.290 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.Performance.Profile-Analyzer.Editor.csproj
+01:04:52.290 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.Performance.Profile-Analyzer.Editor.csproj' with 1 target frameworks
+01:04:52.291 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.292 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Core.csproj
+01:04:52.292 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Core.csproj' with 1 target frameworks
+01:04:52.294 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.295 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.CollabProxy.Editor.csproj
+01:04:52.295 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.CollabProxy.Editor.csproj' with 1 target frameworks
+01:04:52.297 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.297 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VSCode.Editor.csproj
+01:04:52.297 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VSCode.Editor.csproj' with 1 target frameworks
+01:04:52.299 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.300 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Flow.Editor.csproj
+01:04:52.300 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Flow.Editor.csproj' with 1 target frameworks
+01:04:52.302 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.303 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.TextMeshPro.csproj
+01:04:52.303 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.TextMeshPro.csproj' with 1 target frameworks
+01:04:52.305 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.318 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj
+01:04:52.318 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj' with 1 target frameworks
+01:04:52.323 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.324 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualStudio.Editor.csproj
+01:04:52.325 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualStudio.Editor.csproj' with 1 target frameworks
+01:04:52.326 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.327 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Assembly-CSharp-Editor.csproj
+01:04:52.327 |I| Build                          | RequestBuilder thread:10       | Start build 'Assembly-CSharp-Editor.csproj' with 1 target frameworks
+01:04:52.330 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.331 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Shared.Editor.csproj
+01:04:52.331 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Shared.Editor.csproj' with 1 target frameworks
+01:04:52.333 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.334 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.Timeline.csproj
+01:04:52.334 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.Timeline.csproj' with 1 target frameworks
+01:04:52.337 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.337 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\JetBrains.Frontend.2021.2.csproj
+01:04:52.338 |I| Build                          | RequestBuilder thread:10       | Start build 'JetBrains.Frontend.2021.2.csproj' with 1 target frameworks
+01:04:52.340 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.341 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.Timeline.Editor.csproj
+01:04:52.341 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.Timeline.Editor.csproj' with 1 target frameworks
+01:04:52.349 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.351 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.State.Editor.csproj
+01:04:52.351 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.State.Editor.csproj' with 1 target frameworks
+01:04:52.353 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:04:52.599 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'UnityEditor.TestRunner.csproj': Success
+01:04:52.599 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'UnityEditor.TestRunner.csproj': Success
+01:04:52.627 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'UnityEngine.UI.csproj': Success
+01:04:52.627 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'UnityEngine.UI.csproj': Success
+01:04:52.661 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'UnityEditor.UI.csproj': Success
+01:04:52.661 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'UnityEditor.UI.csproj': Success
+01:04:52.670 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.EditorCoroutines.Editor.csproj': Success
+01:04:52.670 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.EditorCoroutines.Editor.csproj': Success
+01:04:52.674 |I| Build                          | .NET ThreadPool Worker:18      | Finish build part [1/1] for project 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj': Success
+01:04:52.674 |I| Build                          | .NET ThreadPool Worker:18      | Finish build project 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj': Success
+01:04:52.678 |I| Build                          | .NET ThreadPool Worker:9       | Finish build part [1/1] for project 'Unity.PlasticSCM.Editor.csproj': Success
+01:04:52.678 |I| Build                          | .NET ThreadPool Worker:9       | Finish build project 'Unity.PlasticSCM.Editor.csproj': Success
+01:04:52.693 |I| Build                          | .NET ThreadPool Worker:18      | Finish build part [1/1] for project 'Unity.Settings.Editor.csproj': Success
+01:04:52.693 |I| Build                          | .NET ThreadPool Worker:18      | Finish build project 'Unity.Settings.Editor.csproj': Success
+01:04:52.703 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Unity.Rider.Editor.csproj': Success
+01:04:52.703 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Unity.Rider.Editor.csproj': Success
+01:04:52.713 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj': Success
+01:04:52.713 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj': Success
+01:04:52.714 |I| Build                          | .NET ThreadPool Worker:5       | Finish build part [1/1] for project 'Unity.Performance.Profile-Analyzer.Editor.csproj': Success
+01:04:52.714 |I| Build                          | .NET ThreadPool Worker:5       | Finish build project 'Unity.Performance.Profile-Analyzer.Editor.csproj': Success
+01:04:52.733 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.VisualScripting.Core.csproj': Success
+01:04:52.733 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.VisualScripting.Core.csproj': Success
+01:04:52.739 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'JetBrains.Frontend.2021.2.csproj': Success
+01:04:52.739 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'JetBrains.Frontend.2021.2.csproj': Success
+01:04:52.746 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Unity.VSCode.Editor.csproj': Success
+01:04:52.746 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Unity.VSCode.Editor.csproj': Success
+01:04:52.751 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.TextMeshPro.csproj': Success
+01:04:52.751 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.TextMeshPro.csproj': Success
+01:04:52.764 |I| Build                          | .NET ThreadPool Worker:5       | Finish build part [1/1] for project 'Unity.VisualStudio.Editor.csproj': Success
+01:04:52.764 |I| Build                          | .NET ThreadPool Worker:5       | Finish build project 'Unity.VisualStudio.Editor.csproj': Success
+01:04:52.769 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.TextMeshPro.Editor.csproj': Success
+01:04:52.769 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.TextMeshPro.Editor.csproj': Success
+01:04:52.790 |I| Build                          | .NET ThreadPool Worker:5       | Finish build part [1/1] for project 'Unity.Timeline.csproj': Success
+01:04:52.790 |I| Build                          | .NET ThreadPool Worker:5       | Finish build project 'Unity.Timeline.csproj': Success
+01:04:52.817 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.TestTools.CodeCoverage.Editor.csproj': Success
+01:04:52.817 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.TestTools.CodeCoverage.Editor.csproj': Success
+01:04:52.828 |I| Build                          | .NET ThreadPool Worker:25      | Finish build part [1/1] for project 'Unity.Timeline.Editor.csproj': Success
+01:04:52.828 |I| Build                          | .NET ThreadPool Worker:25      | Finish build project 'Unity.Timeline.Editor.csproj': Success
+01:04:52.834 |I| Build                          | .NET ThreadPool Worker:25      | Finish build part [1/1] for project 'Unity.CollabProxy.Editor.csproj': Success
+01:04:52.834 |I| Build                          | .NET ThreadPool Worker:25      | Finish build project 'Unity.CollabProxy.Editor.csproj': Success
+01:04:52.841 |I| Build                          | .NET ThreadPool Worker:5       | Finish build part [1/1] for project 'Unity.VisualScripting.Flow.csproj': Success
+01:04:52.841 |I| Build                          | .NET ThreadPool Worker:5       | Finish build project 'Unity.VisualScripting.Flow.csproj': Success
+01:04:52.844 |I| Build                          | .NET ThreadPool Worker:7       | Finish build part [1/1] for project 'Unity.VisualScripting.State.csproj': Success
+01:04:52.844 |I| Build                          | .NET ThreadPool Worker:7       | Finish build project 'Unity.VisualScripting.State.csproj': Success
+01:04:52.852 |I| Build                          | .NET ThreadPool Worker:20      | Finish build part [1/1] for project 'Unity.VisualScripting.Core.Editor.csproj': Success
+01:04:52.852 |I| Build                          | .NET ThreadPool Worker:20      | Finish build project 'Unity.VisualScripting.Core.Editor.csproj': Success
+01:04:52.856 |I| Build                          | .NET ThreadPool Worker:25      | Finish build part [1/1] for project 'Unity.VisualScripting.Flow.Editor.csproj': Success
+01:04:52.856 |I| Build                          | .NET ThreadPool Worker:25      | Finish build project 'Unity.VisualScripting.Flow.Editor.csproj': Success
+01:04:52.861 |I| Build                          | .NET ThreadPool Worker:5       | Finish build part [1/1] for project 'Unity.VisualScripting.Shared.Editor.csproj': Success
+01:04:52.861 |I| Build                          | .NET ThreadPool Worker:5       | Finish build project 'Unity.VisualScripting.Shared.Editor.csproj': Success
+01:04:52.864 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Unity.VisualScripting.SettingsProvider.Editor.csproj': Success
+01:04:52.864 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Unity.VisualScripting.SettingsProvider.Editor.csproj': Success
+01:04:52.867 |I| Build                          | .NET ThreadPool Worker:25      | Finish build part [1/1] for project 'Unity.VisualScripting.State.Editor.csproj': Success
+01:04:52.867 |I| Build                          | .NET ThreadPool Worker:25      | Finish build project 'Unity.VisualScripting.State.Editor.csproj': Success
+01:04:52.890 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+01:04:52.890 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Assembly-CSharp.csproj': Success
+01:04:52.896 |I| Build                          | .NET ThreadPool Worker:23      | Finish build part [1/1] for project 'Assembly-CSharp-Editor.csproj': Success
+01:04:52.896 |I| Build                          | .NET ThreadPool Worker:23      | Finish build project 'Assembly-CSharp-Editor.csproj': Success
+01:04:53.014 |I| Build                          | MSBuild LoggingService events queue pump: 28805302:17 | Build FAILED.
+01:04:53.018 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading has finished, statistic: 
+	Total: 1.82 sec
+	Binding: 0.20 sec
+	Evaluation: 1.45 sec
+01:11:10.651 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading 17 project(s) in 4 node(s)...
+01:11:10.697 |I| ProjectModel                   | RequestBuilder thread:10       | Reason: Sync
+01:11:11.010 |I| Build                          | MSBuild LoggingService events queue pump: 28286049:19 | Build started.
+01:11:11.040 |I| BuildQueue                     | RequestBuilder thread:10       | Build queue: False
+01:11:14.368 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEngine.TestRunner.csproj
+01:11:14.369 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEngine.TestRunner.csproj' with 1 target frameworks
+01:11:14.414 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:11:14.431 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.State.csproj
+01:11:14.432 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.State.csproj' with 1 target frameworks
+01:11:14.473 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:11:14.479 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\UnityEngine.UI.csproj
+01:11:14.480 |I| Build                          | RequestBuilder thread:10       | Start build 'UnityEngine.UI.csproj' with 1 target frameworks
+01:11:14.526 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:11:19.260 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \home\olaf\Documents\air\robotic_arm\robotic_arm\Unity.VisualScripting.Flow.csproj
+01:11:19.289 |I| Build                          | RequestBuilder thread:10       | Start build 'Unity.VisualScripting.Flow.csproj' with 1 target frameworks
+01:11:25.195 |I| Build                          | RequestBuilder thread:10       | Targets for build: _CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;Compile;CoreCompile
+01:11:25.211 |I| Build                          | .NET ThreadPool Worker:21      | Finish build part [1/1] for project 'UnityEngine.TestRunner.csproj': Success
+01:11:25.212 |I| Build                          | .NET ThreadPool Worker:21      | Finish build project 'UnityEngine.TestRunner.csproj': Success
+01:11:54.713 |I| Build                          | .NET ThreadPool Worker:35      | Finish build part [1/1] for project 'UnityEngine.UI.csproj': Success
+01:11:54.714 |I| Build                          | .NET ThreadPool Worker:35      | Finish build project 'UnityEngine.UI.csproj': Success

@@ -1,0 +1,18 @@
+﻿01:03:59.735 |I| Launcher                       | :1                             | Checking if build hasn't expired.
+01:03:59.748 |I| Launcher                       | :1                             | Starting RiderFlow frontend
+01:03:59.759 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | :1                             | PAUSE ('Disconnected') :: state=Initialized
+01:03:59.764 |V| protocol.INIT                  | :1                             | Creating server socket on endpoint: 
+01:03:59.824 |V| protocol.INIT                  | :1                             | Server socket created, listening started on endpoint: 127.0.0.1:0
+01:03:59.825 |V| JetBrains.Rd.Impl.SocketWire+Server | :1                             | ServerSocket-UnityServer : started, port: 35049
+01:03:59.827 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : accepting, port: 35049
+01:04:05.090 |I| Launcher                       | :1                             | Creating Root ScriptableObject
+01:04:05.092 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Didn't find 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow. Creating new 'analytics' file.
+01:04:05.093 |V| JetBrains.RiderFlow.Core.Analytics.RiderFlowAnalytics | :1                             | Generated new uuid. Saved it to 'analytics' in /home/olaf/.var/app/com.unity.UnityHub/config/RiderFlow.
+01:04:05.093 |I| Launcher                       | :1                             | Subscribing for events
+01:04:12.632 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Started building search cache
+01:04:12.636 |I| JetBrains.RiderFlow.Core.Core.Caches.AssetPathCache.AssetPathService | :1                             | Finished building search cache
+01:04:12.877 |V| Launcher                       | :1                             | Ready!
+01:04:42.410 |I| Launcher                       | :1                             | Start running backend
+01:04:54.494 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : accepted
+01:04:54.495 |V| JetBrains.Rd.Impl.SocketWire+Server | ServerSocket-UnityServer-Receiver:32 | ServerSocket-UnityServer : connected
+01:04:54.498 |V| JetBrains.Threading.ByteBufferAsyncProcessor.ServerSocket-UnityServer-Sender | ServerSocket-UnityServer-Receiver:32 | RESUME :: state=AsyncProcessing
