@@ -9,6 +9,8 @@ public class robot_rotation : MonoBehaviour
 
     };
 
+    public GameObject grabbingArm;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,4 +32,6 @@ public class robot_rotation : MonoBehaviour
       arms[arm_index].transform.Rotate(0, (arm_index > 0) ? 0 : alpha, (arm_index > 0) ? alpha : 0);
 
     }
+
+    
 }
