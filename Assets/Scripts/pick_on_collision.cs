@@ -4,11 +4,24 @@ using UnityEngine;
 
 public class pick_on_collision : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    //robot game object needed to enable grabbing
+    public GameObject robot;
+
+    private void OnTriggerEnter(Collider cube)
     {
-        if (other.gameObject.tag == "Pickable")
+        if (cube.gameObject.tag == "Pickable")
         {
-            other.transform.parent = transform;
+            robot_rotation robot_script = robot.GetComponent<robot_rotation>();
+            robot_script.CanGrab(cube, this.gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider cube)
+    {
+        if (cube.gameObject.tag == "Pickable")
+        {
+            robot_rotation robot_script = robot.GetComponent<robot_rotation>();
+            robot_script.CantGrab();
         }
     }
 

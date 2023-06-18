@@ -803,8 +803,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8, y: 1.8, z: 1.8}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.5, y: 2.3, z: 2.5}
+  m_Center: {x: 0, y: 0.15, z: 0}
 --- !u!1 &369668217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,6 +2299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: model
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef561e0bffad3924a9da45ff5be11651, type: 3}
+      propertyPath: m_TagString
+      value: Pickable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef561e0bffad3924a9da45ff5be11651, type: 3}
 --- !u!1 &963194225
@@ -3412,7 +3416,7 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898998023}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
@@ -5430,7 +5434,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8947389097336911839}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -5448,3 +5452,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 800db291cd7d3e442aa67b2af7ceb549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  robot: {fileID: 2553831343432429283}

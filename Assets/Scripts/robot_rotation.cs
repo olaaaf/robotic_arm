@@ -12,6 +12,8 @@ public class robot_rotation : MonoBehaviour
     public Button grabButton;
     public TMP_Text buttonText;
     bool grabbing_or_not = false;
+    private GameObject grabbingArm;
+    private Collider cube;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,13 +65,17 @@ public class robot_rotation : MonoBehaviour
 
     public void Grab()
     {
+        if (cube == null)
+            return;
         grabbing_or_not = !grabbing_or_not;
         if (grabbing_or_not)
         {
+            LockCube();
             SetButtonText("RELEASE");
         }
         else
         {
+            UnLockCube();
             SetButtonText("GRAB");
         }
     }
@@ -77,5 +83,33 @@ public class robot_rotation : MonoBehaviour
     private void SetButtonText(string text)
     {
         buttonText.text = text;
+    }
+
+    private void LockCube()
+    {
+        if (cube == null)
+            return;
+        cube.transform.SetParent(grabbingArm.transform, true);
+        cube.attachedRigidbody.isKinematic = true;
+    }
+
+    private void UnLockCube()
+    {
+        if (cube == null)
+            return;
+
+        cube.transform.SetParent(null, true);
+        cube.attachedRigidbody.isKinematic = false;
+    }
+
+    public void CanGrab(Collider cube, GameObject parent)
+    {
+        this.grabbingArm = parent;
+        this.cube = cube;
+    }
+
+    public void CantGrab()
+    {
+        this.cube = null;
     }
 }
