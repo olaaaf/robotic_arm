@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 public class robot_rotation : MonoBehaviour
 {
     public GameObject[] arms = { };
@@ -10,6 +10,7 @@ public class robot_rotation : MonoBehaviour
     public Slider[] sliders = { };
 
     public Button grabButton;
+    public TMP_Text buttonText;
     bool grabbing_or_not = false;
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,8 @@ public class robot_rotation : MonoBehaviour
 
         SetButtonText("GRAB");
         grabbing_or_not = false;
+
+        grabButton.onClick.AddListener(Grab);
     }
 
     private float RotToPercentage(float rotation)
@@ -55,24 +58,24 @@ public class robot_rotation : MonoBehaviour
             return;
 
         float rotation = PercentageToRot(alpha);
-        Debug.Log("arm_index: " + arm_index + ", alpha = " + alpha);
         arms[arm_index].transform.rotation = Quaternion.Euler(0, (arm_index == 0) ? rotation : 0, (arm_index != 0) ? rotation : 0);
     }
 
     public void Grab()
     {
-      if (grabbing_or_not)
-      {
-        SetButtonText("RELEASE");
-      }
-      else{
-        SetButtonText("GRAB");
-      }
-      
+        grabbing_or_not = !grabbing_or_not;
+        if (grabbing_or_not)
+        {
+            SetButtonText("RELEASE");
+        }
+        else
+        {
+            SetButtonText("GRAB");
+        }
     }
 
     private void SetButtonText(string text)
     {
-      grabButton.GetChild(0).GetComponent<Text>().text = text;
+        buttonText.text = text;
     }
 }

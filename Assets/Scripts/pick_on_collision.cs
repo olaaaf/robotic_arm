@@ -8,7 +8,6 @@ public class pick_on_collision : MonoBehaviour
     {
         if (other.gameObject.tag == "Pickable")
         {
-            print("picked Brick");
             other.transform.parent = transform;
         }
     }
